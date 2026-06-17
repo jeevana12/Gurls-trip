@@ -43,7 +43,7 @@ export default function LoveCalculatorPage({ birthdayChoices }) {
 
     // Simulate standard checking, then throw a cute error
     setTimeout(() => {
-      setErrorMsg('❌ SYSTEM ERROR: The value entered is too small. Stack overflow detected because Siddi\'s love capacity is too large!');
+      setErrorMsg('❌ SYSTEM ERROR: The value entered is too small. Stack overflow detected because Jeevana\'s love capacity is too large!');
       
       // Keep error visible for 2.5 seconds, then transition to infinity!
       setTimeout(() => {
