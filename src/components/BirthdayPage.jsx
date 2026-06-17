@@ -24,9 +24,9 @@ export default function BirthdayPage({ onNext, setBirthdayChoices }) {
 
   return (
     <div className="glass-container fade-transition" style={{ maxWidth: '650px' }}>
-      <h1>Birthday Planner 🎂</h1>
+      <h1>And it's high time, let's plan for a trip</h1>
       <p className="subtitle">
-        Let's plan your perfect birthday celebration. Where does your heart want to go?
+        Where does your heart want to go?
       </p>
 
       <div className="birthday-flow-container">

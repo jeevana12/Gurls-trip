@@ -17,14 +17,14 @@ export default function CardsPage({ onNext }) {
       emoji: '💖',
       hint: 'Reveal Secret 2',
       title: 'A True Feeling',
-      message: 'You are the most beautiful part of my life! 💖✨'
+      message: 'Ninna nodidare nanna manassu thumba khushi aagatte 💖✨'
     },
     {
       id: 3,
       emoji: '✨',
       hint: 'Reveal Secret 3',
       title: 'An Inspiration',
-      message: 'You inspire me to be a better person! 💫🌟'
+      message: 'You inspire me to be a better person to sleep early and wake up early and eat food on time! 💫🌟'
     }
   ];
 
