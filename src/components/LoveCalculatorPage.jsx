@@ -72,10 +72,10 @@ export default function LoveCalculatorPage({ birthdayChoices }) {
         </p>
 
         <div className="sweet-letter">
-          Hi puttu, no matter what number you entered, there is no limit to how much I love you. 
-          You made my life brighter, and I can't wait to go to trip together!
+          Hi gurls, no matter what number you entered, there is no limit to how much I love you. 
+          You guys made my life brighter, and I can't wait to go to trip together!
           <br /><br />
-          <strong>Plan Confirmed puttu:</strong><br />
+          <strong>Plan Confirmed gurlsss:</strong><br />
           ✨ {birthdayChoices || "We'll figure out a perfect plan!"}
         </div>
 

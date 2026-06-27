@@ -16,7 +16,7 @@ export default function BirthdayPage({ onNext, setBirthdayChoices }) {
     if (mainChoice === 'out_of_station') {
       summaryText = `Go out of station to a ${subChoice === 'beach' ? 'Beach' : 'Hill Station'} at ${finalDetail}`;
     } else {
-      summaryText = `Stay in Bangalore and ${subChoice === 'cafes' ? 'Explore cozy cafes' : 'Visit a resort & do adventure activities'}`;
+      summaryText = `come to Bangalore and ${subChoice === 'cafes' ? 'Explore cozy cafes' : 'Visit a resort & do adventure activities'}`;
     }
     setBirthdayChoices(summaryText);
     onNext();
@@ -26,7 +26,7 @@ export default function BirthdayPage({ onNext, setBirthdayChoices }) {
     <div className="glass-container fade-transition" style={{ maxWidth: '650px' }}>
       <h1>And it's high time, let's plan for a trip</h1>
       <p className="subtitle">
-        Where does your heart want to go?
+        Where do guys want to go?
       </p>
 
       <div className="birthday-flow-container">
@@ -49,7 +49,7 @@ export default function BirthdayPage({ onNext, setBirthdayChoices }) {
                 className="choice-box-btn"
               >
                 <span className="choice-emoji">🏡</span>
-                <span className="choice-title">Stay in Bangalore</span>
+                <span className="choice-title">come to Bangalore</span>
                 <span className="choice-sub">Explore the local vibes</span>
               </button>
             </div>
@@ -158,7 +158,7 @@ export default function BirthdayPage({ onNext, setBirthdayChoices }) {
           <div className="fade-transition" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h3>Pick your favorite hill station destination:</h3>
             <div className="options-grid">
-              {['Kodaikanal 🌲', 'Ooty 🌸', 'Coorg ☕', 'Chikmagalur 🍃'].map((dest) => (
+              {['chikmangalur 🌲', 'varkala 🌸', 'Goa ☕'].map((dest) => (
                 <button
                   key={dest}
                   onClick={() => setFinalDetail(dest)}

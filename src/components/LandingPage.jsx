@@ -7,7 +7,7 @@ export default function LandingPage({ onNext }) {
         🎁
       </div>
       
-      <h1>Hi puttu! 💕</h1>
+      <h1>Hey gurlssss! 💕</h1>
       
       <p className="subtitle landing-subtitle">
         Your loved one has sent you something special...

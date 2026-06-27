@@ -10,21 +10,21 @@ export default function CardsPage({ onNext }) {
       emoji: '🌸',
       hint: 'Reveal Secret 1',
       title: 'A Little Thought',
-      message: 'You make every day brighter! ☀️🌸'
+      message: 'You guys make every day brighter! ☀️🌸'
     },
     {
       id: 2,
       emoji: '💖',
       hint: 'Reveal Secret 2',
       title: 'A True Feeling',
-      message: 'Ninna nodidare nanna manassu thumba khushi aagatte 💖✨'
+      message: 'Everything around us changes but our frndship is constant! 💖✨'
     },
     {
       id: 3,
       emoji: '✨',
       hint: 'Reveal Secret 3',
-      title: 'An Inspiration',
-      message: 'You inspire me to be a better person to sleep early and wake up early and eat food on time! 💫🌟'
+      title: 'Yu guys to have reveal this',
+      message: 'Ikkada em pettalo telitle andhuke💫🌟'
     }
   ];
 
